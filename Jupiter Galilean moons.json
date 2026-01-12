@@ -1,0 +1,106 @@
+{
+    "G": 6.674e-11,
+    "dt": 3600.0,
+    "integrator_type": "rk4",
+    "collision_model": "ignore",
+    "total_sim_time_s": 5184000.0,
+    "simulation_mode": "pre_defined",
+    "initial_bodies": [
+        {
+            "id": 0,
+            "name": "Jupiter",
+            "mass": 1.898e+27,
+            "pos": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "vel": [
+                1500.0,
+                1500.0,
+                2000.0
+            ],
+            "radius": 6.9911e7,
+            "color": "#FFD700"
+        },
+        {
+            "id": 1,
+            "name": "Io",
+            "mass": 8.932e+22,
+            "pos": [
+                4.217e8,
+                0.0,
+                0.0
+            ],
+            "vel": [
+                0.0,
+                17334.8,
+                0.0
+            ],
+            "radius": 1.8216e6,
+            "color": "#FF4500"
+        },
+        {
+            "id": 2,
+            "name": "Europa",
+            "mass": 4.799e+22,
+            "pos": [
+                6.711e8,
+                0.0,
+                0.0
+            ],
+            "vel": [
+                0.0,
+                13735.6,
+                0.0
+            ],
+            "radius": 1.5608e6,
+            "color": "#DCDCDC"
+        },
+        {
+            "id": 3,
+            "name": "Ganymede",
+            "mass": 1.4819e+23,
+            "pos": [
+                1.0704e9,
+                0.0,
+                0.0
+            ],
+            "vel": [
+                0.0,
+                10878.7,
+                0.0
+            ],
+            "radius": 2.6341e6,
+            "color": "#A9A9A9"
+        },
+        {
+            "id": 4,
+            "name": "Callisto",
+            "mass": 1.0759e+23,
+            "pos": [
+                1.8827e9,
+                0.0,
+                0.0
+            ],
+            "vel": [
+                0.0,
+                8200.7,
+                0.0
+            ],
+            "radius": 2.4103e6,
+            "color": "#808080"
+        }
+    ],
+    "camera_state": {
+        "distance": 3.0e9,
+        "center": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "fov": 30.0,
+        "azimuth": -59.9,
+        "elevation": 30
+    }
+}
